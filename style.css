@@ -1,0 +1,115 @@
+body{
+    
+        background-color:rgb(216, 191, 155) ;
+        
+
+    /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(50, 26, 26);
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+div{
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+}
+li{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(41, 20, 20);
+}
+hr{
+  height: 1px;
+  background-color: rgb(41, 20, 20);
+  border-color: rgb(62, 17, 17);
+}
+h1{
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(41, 20, 20) ;
+}
+h3{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(41, 20, 20) ;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(139, 116, 14);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 0, 128);
+}
+
+/* selected link */
+a:active {
+  color: rgb(168, 7, 88);
+}
+p{
+  font-size: 30px;
+}
+button{
+  background-color: antiquewhite;
+  border:rgb(41, 20, 20);
+  color:rgb(41, 20, 20);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+
+button:hover{
+  background-color: coral;
+  color:white; 
+}
